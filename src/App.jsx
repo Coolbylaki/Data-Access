@@ -19,7 +19,9 @@ function App() {
 					</Button>
 				)}
 			</div>
-			{!showQuestions && <h1 className="relative text-4xl font-[600] text-white">Your answers will be saved</h1>}
+			{!showQuestions && (
+				<h1 className="relative max-w-md text-center text-4xl font-[600] text-white">Your answers will be saved</h1>
+			)}
 			{showQuestions && <Questions />}
 			<Footer />
 		</>

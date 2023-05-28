@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
-		<footer className="text-center text-white">
-			<p className="absolute bottom-0 left-0">
+		<footer className="hidden text-center text-white sm:flex">
+			<p className="absolute bottom-0 right-0">
 				Made by:<span className="text-xl font-[500]"> Lazar Stojanović</span>
 			</p>
 		</footer>
