@@ -20,8 +20,8 @@ const Questions = () => {
 
 	return (
 		<>
-			{data.map((q) => (
-				<Question key={q.question} options={q.options} question={q.question} />
+			{data.map((q, index) => (
+				<Question key={q.question} options={q.options} question={q.question} index={index} />
 			))}
 		</>
 	);
