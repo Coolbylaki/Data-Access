@@ -12,7 +12,7 @@ const Question = (props) => {
 
 	return (
 		<section className="my-2">
-			<p className="text-3xl font-bold text-blue-300">
+			<p className="mb-1 text-3xl font-bold text-blue-300">
 				<span className="text-blue-500">{props.index + 1}.</span> {props.question}
 			</p>
 			{props.options.map((option, index) => {
@@ -20,9 +20,9 @@ const Question = (props) => {
 				const storedValue = localStorage.getItem(answerName);
 
 				return (
-					<label key={index} className="text-xl text-white" onClick={onClickHandler}>
+					<label key={index} className="text-xl font-[500] tracking-wide text-white" onClick={onClickHandler}>
 						<input
-							className="mb-2"
+							className="mb-[0.6rem]"
 							type="radio"
 							name={answerName}
 							value={option}
