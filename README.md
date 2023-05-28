@@ -1,5 +1,7 @@
 # Data Access exercise
 
+Made out of fun with React to showcase basic React to other students
+
 ## Made with:
 + React
 + Tailwind
@@ -8,6 +10,3 @@
 
 ## Live site:
 + https://data-access-exercise.netlify.app/
-
-## Keynote:
-+ PC Only version. Not responsive!
